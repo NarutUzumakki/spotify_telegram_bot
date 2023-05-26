@@ -69,7 +69,7 @@ def error_handler(update: object, context: CallbackContext) -> None:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Start a telegram bot to serve requests"
+        description="Start telegram bot to serve requests"
     )
     parser.add_argument('--token', dest="telegram_token", default=None)
     parser.add_argument('--url', dest="url", default=None)
